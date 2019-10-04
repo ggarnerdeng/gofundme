@@ -28,7 +28,7 @@ func Test_Withdraw(t *testing.T) {
 	}
 }
 
-func Bench_Fund(b *testing.B) {
+func BenchFund(b *testing.B) {
 	fund := NewFund(float64(100000000000))
 
 	for i := 0; i < 100000000000; i++ {
