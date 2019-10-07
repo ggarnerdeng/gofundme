@@ -4,12 +4,12 @@ import (
 	"flag"
 	"fmt"
 
-	"github.com/190930-UTA-CW-Go/gofundme/fund"
+	"gofundme/gofundme/fund"
 )
 
 func main() {
 	initbalance := flag.Float64("balance", 100, "default balance")
-	name := flag.String("name", "Mehrab", "default name")
+	name := flag.String("name", "Garner", "default name")
 	flag.Parse()
 
 	fmt.Println(*name)
